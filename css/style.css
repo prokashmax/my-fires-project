@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 
-.header{
+.header-area{
     height:100vh;
     background:radial-gradient(rgba(169, 37, 187, 0.589),rgba(70, 43, 226, 0.719)),url(../img/laptop.jpg);
     padding:10px;
