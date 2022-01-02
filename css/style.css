@@ -52,10 +52,12 @@ body{
 .content-area img{
     width:50%;
     height:auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
 }
 .content-area > .post-box{
     background-color: rgb(253, 253, 253);
-    padding: 20px;
+    padding: 50px;
     margin: 30px 20px;
     overflow: hidden;
     text-align: center;
