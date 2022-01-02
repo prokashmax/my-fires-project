@@ -7,7 +7,7 @@ body{
 
 .header-area{
     height:100vh;
-    background:radial-gradient(rgba(169, 37, 187, 0.589),rgba(70, 43, 226, 0.719)),url(../img/laptop.jpg);
+    background:radial-gradient(rgba(16, 8, 17, 0.712),rgba(43, 11, 224, 0.89)),url(../img/laptop.jpg);
     padding:10px;
     color:white;
     text-align: center;
@@ -19,6 +19,19 @@ body{
     left:50%;
     transform: translate(-50%,-50%);
 }
-.header h2{
-    font-size:25px;
+.header-text h2{
+    font-size:3.5em;
+}
+.header-text p{
+    font-size: 20px;
+}
+.header-text a.header-btn {
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 10px;
 }
