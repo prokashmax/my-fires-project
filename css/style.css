@@ -8,10 +8,13 @@ body{
 .header-area{
     height:100vh;
     background:radial-gradient(rgba(16, 8, 17, 0.712),rgba(43, 11, 224, 0.89)),url(../img/laptop.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
     padding:10px;
     color:white;
     text-align: center;
     position:relative;
+    overflow: hidden;
 }
 .header-area .header-text{
     position:absolute;
@@ -20,10 +23,11 @@ body{
     transform: translate(-50%,-50%);
 }
 .header-text h2{
-    font-size:3.5em;
+    font-size:50px;
 }
 .header-text p{
     font-size: 20px;
+    line-height:20px;
 }
 .header-text a.header-btn {
     text-decoration: none;
@@ -33,7 +37,7 @@ body{
     border: 1px solid white;
     border-radius: 8px;
     padding: 10px;
-    margin: 20px 10px;
+    margin: 15px 10px;
     transition: .5s ease;
 }
 .header-text a.header-btn:hover{
