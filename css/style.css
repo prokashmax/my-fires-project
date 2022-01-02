@@ -7,7 +7,7 @@ body{
 
 .header{
     height:100vh;
-    background:radial-gradient(rgba(24, 27, 43, 0.555),rgba(24, 27, 43, 0.555)),url(/img/laptop.jpg);
+    background:radial-gradient(rgba(24, 27, 43, 0.555),rgba(24, 27, 43, 0.555)),url(img/laptop.jpg);
     padding:10px;
     color:white;
 }
