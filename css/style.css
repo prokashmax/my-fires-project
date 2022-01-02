@@ -45,4 +45,11 @@ body{
     color:rgb(48, 36, 218);
     border: 1px solid rgb(48, 36, 218);
 }
-
+.content-area{
+    padding: 50px;
+    background:#fffafa;
+}
+.content-area img{
+    width:150px;
+    height:150px;
+}
