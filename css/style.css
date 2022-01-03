@@ -48,28 +48,37 @@ body{
 .content-area{
     padding: 50px;
     background:#fffafa;
+    
+}
+.dis-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-area h2{
+    text-align: center;
+    font-size: 3em;
 }
 .content-area img{
-    width:50%;
+    width:100%;
     height:auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
+    border-radius:0;
 }
-.content-area > .post-box{
+.dis-flex  .post-box{
     background-color: rgb(253, 253, 253);
-    padding: 50px;
     margin: 30px 20px;
     overflow: hidden;
     text-align: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
+    flex: 40%;
 }
 .post-box h3{
-    font-size:30px;
+    font-size:1.4em;
     color:rgb(68, 20, 158);
 }
 .post-box p{
-    font-size:20px;
+    font-size:17px;
 }
 .post-box a:link{
     color:rgb(68, 20, 158);
